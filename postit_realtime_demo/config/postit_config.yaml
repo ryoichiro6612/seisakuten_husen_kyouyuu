@@ -1,0 +1,22 @@
+#postit size
+postit_width: 600
+postit_height: 450
+
+#common parameters for inner
+space_x: 7
+rect_len: 5
+x_buffer: 5 #from rectangle's edge
+y_buffer: 5 #from rectangle's edge
+
+#bit parameters for outer
+bit_num: 9
+bit_height: 16
+
+#location parameters for outer
+location_dot_num: 5
+horizon_x_buffer: 10 #from postit's edge
+horizon_y_buffer: 10 #from postit's edge
+location_height: 16
+
+#common parameters for outer
+line_width: 3

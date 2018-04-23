@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4FCFD"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/uri"
+        android:text="Download" />
+
+    <ImageView
+        android:id="@+id/bou"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/download"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:src="@drawable/bou2" />
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_toLeftOf="@id/bou"
+        android:layout_below="@id/download"
+        android:gravity="center"
+        android:src="@drawable/bou2" />
+
+
+
+</RelativeLayout>

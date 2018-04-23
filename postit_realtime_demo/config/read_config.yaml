@@ -1,0 +1,9 @@
+expand_ratio: 1
+error_thresh: 50
+dot_read_thre: 170
+dot_read_area: 1
+point_buffer: 4 #used when searching in larger area and extract larger area of location point area
+larger_buffer: 20 #used for setting larger area in whole postit area for analyzing
+search_buffer: 20 #area of searching information bit rectangle
+outer_lower: 0.4
+outer_upper: 1.6
